@@ -15,7 +15,6 @@ Icons Needed:
         - Sun
         - Mercury
         - Venus
-        - Earth
         - Moon
         - Mars
         - Jupiter

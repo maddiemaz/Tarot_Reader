@@ -1,0 +1,58 @@
+Icons Needed:
+    - Suit Icons
+        - Major Arcana
+        - Wands
+        - Swords
+        - Cups
+        - Pentacles
+    - Element Icons
+        - Major Arcana
+        - Fire
+        - Air
+        - Water
+        - Earth
+    - Planet Icons
+        - Sun
+        - Mercury
+        - Venus
+        - Earth
+        - Moon
+        - Mars
+        - Jupiter
+        - Saturn
+        - Neptune
+        - Uranus
+        - Pluto
+    - Astrology Icon
+        - Aries
+        - Leo
+        - Sagittarius
+        - Cancer
+        - Scorpio
+        - Pisces
+        - Libra
+        - Gemini
+        - Aquarius
+        - Capricorn
+        - Taurus
+        - Virgo
+    - App
+        - Dropdown Arrow
+        - Other (?)
+
+Images Needed:
+    - Branding
+        - App logo
+        - Sparkle emoji interpretation
+        - Other (?)
+    - Users
+        - Profile Pictures for sample accounts
+    - Cards
+        - Back Deck Image
+        - Upright Images
+        - Reversed Images
+            - Would it be easier to reference new or flip old? I feel like new
+    - Possible Other
+        - Layouts (?)
+            - May be easier to do via coding bc cards will appear there anyway
+            - Could be a preview during selection

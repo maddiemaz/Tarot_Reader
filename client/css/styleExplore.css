@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Astloch:wght@400;700&family=New+Rocker&display=swap');
+
+*{
+    font-family: "Abel", sans-serif;
+    color: white;
+}
+#body {
+    /* background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #3ce7bf); */
+    background: linear-gradient(-45deg, #a24cc4, #216cb2, #2e3dc9, #2330a3);
+    background-size: 100% 100%;
+    /* animation: gradient 15s ease infinite; */
+	height: 100vh;
+    /* background-repeat: none; */
+
+}
+#header-Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#menu {
+    margin-left: 20px;
+    
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}
+#logo {
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+#user-img {
+    margin-right: 20px;
+
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+#header-Index {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #304be4);
+    height: 60px;
+
+    margin-bottom: 20px;
+}
+#suitName {
+    font-family: "Astloch", system-ui;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#content-explore {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+#explore-majorArcana {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#minorArcana {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #30b4e4; */
+
+    column-gap: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#explore-Wands, #explore-Swords, #explore-Cups, #explore-Pentacles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+}
+#explore-major-suit {
+    font-size: 26px;
+    margin-left: 25px;
+}
+#explore-wands-suit, #explore-swords-suit, #explore-cups-suit, #explore-pentacles-suit {
+    font-size: 26px;
+    margin-top: 10px;
+}
+#explore-major-elementIcon, #explore-wands-elementIcon, #explore-swords-elementIcon, #explore-cups-elementIcon, #explore-pentacles-elementIcon {
+    width: 100px;
+    height: 100px;
+    background-color: #f565aa;
+}

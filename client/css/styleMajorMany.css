@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Astloch:wght@400;700&family=New+Rocker&display=swap');
+
+*{
+    font-family: "Abel", sans-serif;
+    color: white;
+}
+#body {
+    /* background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #3ce7bf); */
+    background: linear-gradient(-45deg, #a24cc4, #216cb2, #2e3dc9, #2330a3);
+    background-size: 100% 100%;
+    /* animation: gradient 15s ease infinite; */
+	height: 100vh;
+    /* background-repeat: none; */
+
+}
+#header-Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#menu {
+    margin-left: 20px;
+    
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}
+#logo {
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+#user-img {
+    margin-right: 20px;
+
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+#header-Index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+
+    background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #304be4);
+    height: 60px;
+
+    margin-bottom: 20px;
+}
+#backButton {
+    background-color: white;
+    width: 30px;
+    height: 40px;
+
+    margin-left: 20px;
+}
+#suitName {
+    font-family: "Astloch", system-ui;
+    font-weight: 700;
+    font-size: 32px;
+}
+#dropdown {
+    background-color: white;
+    width: 40px;
+    height: 30px;
+
+    margin-right: 20px;
+}
+
+#content-Many {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-many {
+    margin-right: 10px;
+}
+#text-many {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#icons-many {
+    display: flex;
+    flex-direction: row;
+}
+#keywords-many {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.explore {
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    border-radius: 25px;
+    width: 85px;
+    height: 35px;
+
+    margin-top: 10px;
+}
+
+#card0, #card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9, #card10, #card11, #card12, #card13, #card14, #card15, #card16, #card17, #card18, #card19, #card20, #card21 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#card0-imgUp, #card1-imgUp, #card2-imgUp, #card3-imgUp, #card4-imgUp, #card5-imgUp, #card6-imgUp, #card7-imgUp, #card8-imgUp, #card9-imgUp, #card10-imgUp, #card11-imgUp, #card12-imgUp, #card13-imgUp, #card14-imgUp, #card15-imgUp, #card16-imgUp, #card17-imgUp, #card18-imgUp, #card19-imgUp, #card20-imgUp, #card21-imgUp {
+    background-color: #c55af0;
+    width: 150px;
+    height: 250px;
+}
+#card0-name, #card1-name, #card2-name, #card3-name, #card4-name, #card5-name, #card6-name, #card7-name, #card8-name, #card9-name, #card10-name, #card11-name, #card12-name, #card13-name, #card14-name, #card15-name, #card16-name, #card17-name, #card18-name, #card19-name, #card20-name, #card21-name {
+    font-size: 24px;
+    /* font-family: "New Rocker", system-ui; */
+    /* font-family: "Astloch", system-ui; */
+    margin-top: 5px;
+}
+#card0-elementIcon, #card1-elementIcon, #card2-elementIcon, #card3-elementIcon, #card4-elementIcon, #card5-elementIcon, #card6-elementIcon, #card7-elementIcon, #card8-elementIcon, #card9-elementIcon, #card10-elementIcon, #card11-elementIcon, #card12-elementIcon, #card13-elementIcon, #card14-elementIcon, #card15-elementIcon, #card16-elementIcon, #card17-elementIcon, #card18-elementIcon, #card19-elementIcon, #card20-elementIcon, #card21-elementIcon {
+    width: 30px;
+    height: 30px;
+    background-color: #30b4e4;
+
+    margin-right: 10px;
+}
+#card0-planetIcon, #card1-planetIcon, #card2-planetIcon, #card3-planetIcon, #card4-planetIcon, #card5-planetIcon, #card6-planetIcon, #card7-planetIcon, #card8-planetIcon, #card9-planetIcon, #card10-planetIcon, #card11-planetIcon, #card12-planetIcon, #card13-planetIcon, #card14-planetIcon, #card15-planetIcon, #card16-planetIcon, #card17-planetIcon, #card18-planetIcon, #card19-planetIcon, #card20-planetIcon, #card21-planetIcon {
+    width: 30px;
+    height: 30px;
+    background-color: #a24cc4;
+
+    margin-right: 10px;
+}
+#card0-astroIcon, #card1-astroIcon, #card2-astroIcon, #card3-astroIcon, #card4-astroIcon, #card5-astroIcon, #card6-astroIcon, #card7-astroIcon, #card8-astroIcon, #card9-astroIcon, #card10-astroIcon, #card11-astroIcon, #card12-astroIcon, #card13-astroIcon, #card14-astroIcon, #card15-astroIcon, #card16-astroIcon, #card17-astroIcon, #card18-astroIcon, #card19-astroIcon, #card20-astroIcon, #card21-astroIcon {
+    width: 30px;
+    height: 30px;
+    background-color: #f565aa;
+
+    margin-right: 10px;
+}
+#card0-keyUp, #card1-keyUp, #card2-keyUp, #card3-keyUp, #card4-keyUp, #card5-keyUp, #card6-keyUp, #card7-keyUp, #card8-keyUp, #card9-keyUp, #card10-keyUp, #card11-keyUp, #card12-keyUp, #card13-keyUp, #card14-keyUp, #card15-keyUp, #card16-keyUp, #card17-keyUp, #card18-keyUp, #card19-keyUp, #card20-keyUp, #card21-keyUp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#key-line {
+    width: 150px;
+    height: 1px;
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+#card0-keyRev, #card1-keyRev, #card2-keyRev, #card3-keyRev, #card4-keyRev, #card5-keyRev, #card6-keyRev, #card7-keyRev, #card8-keyRev, #card9-keyRev, #card10-keyRev, #card11-keyRev, #card12-keyRev, #card13-keyRev, #card14-keyRev, #card15-keyRev, #card16-keyRev, #card17-keyRev, #card18-keyRev, #card19-keyRev, #card20-keyRev, #card21-keyRev {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

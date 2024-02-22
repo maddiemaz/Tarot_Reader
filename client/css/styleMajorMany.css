@@ -67,6 +67,7 @@
     font-family: "Astloch", system-ui;
     font-weight: 700;
     font-size: 32px;
+    text-shadow: 1px 1px 3px #2330a3;
 }
 #dropdown {
     background-color: white;
@@ -172,4 +173,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+#buffer {
+    height: 40px;
 }

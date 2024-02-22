@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
 
     margin-top: 30px;
     margin-bottom: 30px;
@@ -47,7 +47,8 @@
 #header-Index {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    /* justify-content: center; */
     align-items: center;
     width: 100vw;
 
@@ -56,58 +57,99 @@
 
     margin-bottom: 20px;
 }
-#suitName {
+#title {
     font-family: "Astloch", system-ui;
     font-weight: 700;
     font-size: 32px;
+    margin-left: 28%;
     text-shadow: 1px 1px 3px #2330a3;
 }
+#filter {
+    background-color: white;
+    width: 40px;
+    height: 30px;
+    /* justify-self: flex-end; */
 
-#content-explore {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+    margin-right: 20px;
 }
-#explore-majorArcana {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
-#minorArcana {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    /* background-color: #30b4e4; */
-
-    column-gap: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-#explore-Wands, #explore-Swords, #explore-Cups, #explore-Pentacles {
+#preview-pastReading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    margin-top: 40px;
+    margin-top: 30px;
 }
-#explore-major-suit {
-    font-size: 26px;
-    margin-left: 25px;
+#layoutArea {
+    display: flex;
+    flex-direction: row;
 }
-#explore-wands-suit, #explore-swords-suit, #explore-cups-suit, #explore-pentacles-suit {
-    font-size: 26px;
-    margin-top: 10px;
-}
-#explore-major-elementIcon, #explore-wands-elementIcon, #explore-swords-elementIcon, #explore-cups-elementIcon, #explore-pentacles-elementIcon {
-    width: 100px;
-    height: 100px;
+#card1, #card2, #card3 {
+    width: 85px;
+    height: 130px;
     background-color: #f565aa;
+    margin: 10px;
+}
+#date {
+    font-size: 24px;
+}
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#reading-intention, #reading-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+#prompt {
+    font-family: "Astloch", system-ui;
+    font-weight: 400;
+}
+
+#actions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* margin-top: 15px; */
+}
+#view-button {
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+
+    /* box-shadow: 2px 2px 5px #1b2687; */
+}
+#share-button {
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+
+    /* box-shadow: 2px 2px 5px #1b2687; */
+}
+
+#buffer {
+    height: 60px;
 }

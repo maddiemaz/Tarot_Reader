@@ -67,6 +67,7 @@
     font-family: "Astloch", system-ui;
     font-weight: 700;
     font-size: 32px;
+    text-shadow: 1px 1px 3px #2330a3;
 }
 #dropdown {
     background-color: white;
@@ -117,45 +118,45 @@
     margin-top: 10px;
 }
 
-#card0, #card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9, #card10, #card11, #card12, #card13, #card14 {
+#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9, #card10, #card11, #card12, #card13, #card14 {
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-#card0-imgUp, #card1-imgUp, #card2-imgUp, #card3-imgUp, #card4-imgUp, #card5-imgUp, #card6-imgUp, #card7-imgUp, #card8-imgUp, #card9-imgUp, #card10-imgUp, #card11-imgUp, #card12-imgUp, #card13-imgUp, #card14-imgUp {
+#card1-imgUp, #card2-imgUp, #card3-imgUp, #card4-imgUp, #card5-imgUp, #card6-imgUp, #card7-imgUp, #card8-imgUp, #card9-imgUp, #card10-imgUp, #card11-imgUp, #card12-imgUp, #card13-imgUp, #card14-imgUp {
     background-color: #c55af0;
     width: 150px;
     height: 250px;
 }
-#card0-Name, #card1-Name, #card2-Name, #card3-Name, #card4-Name, #card5-Name, #card6-Name, #card7-Name, #card8-Name, #card9-Name, #card10-Name, #card11-Name, #card12-Name, #card13-Name, #card14-Name {
+#card1-name, #card2-name, #card3-name, #card4-name, #card5-name, #card6-name, #card7-name, #card8-name, #card9-name, #card10-name, #card11-name, #card12-name, #card13-name, #card14-name {
     font-size: 24px;
     /* font-family: "New Rocker", system-ui; */
     /* font-family: "Astloch", system-ui; */
     margin-top: 5px;
 }
-#card0-elementIcon, #card1-elementIcon, #card2-elementIcon, #card3-elementIcon, #card4-elementIcon, #card5-elementIcon, #card6-elementIcon, #card7-elementIcon, #card8-elementIcon, #card9-elementIcon, #card10-elementIcon, #card11-elementIcon, #card12-elementIcon, #card13-elementIcon, #card14-elementIcon {
+#card1-elementIcon, #card2-elementIcon, #card3-elementIcon, #card4-elementIcon, #card5-elementIcon, #card6-elementIcon, #card7-elementIcon, #card8-elementIcon, #card9-elementIcon, #card10-elementIcon, #card11-elementIcon, #card12-elementIcon, #card13-elementIcon, #card14-elementIcon {
     width: 30px;
     height: 30px;
     background-color: #30b4e4;
 
     margin-right: 10px;
 }
-#card0-planetIcon, #card1-planetIcon, #card2-planetIcon, #card3-planetIcon, #card4-planetIcon, #card5-planetIcon, #card6-planetIcon, #card7-planetIcon, #card8-planetIcon, #card9-planetIcon, #card10-planetIcon, #card11-planetIcon, #card12-planetIcon, #card13-planetIcon, #card14-planetIcon {
+#card1-planetIcon, #card2-planetIcon, #card3-planetIcon, #card4-planetIcon, #card5-planetIcon, #card6-planetIcon, #card7-planetIcon, #card8-planetIcon, #card9-planetIcon, #card10-planetIcon, #card11-planetIcon, #card12-planetIcon, #card13-planetIcon, #card14-planetIcon {
     width: 30px;
     height: 30px;
     background-color: #a24cc4;
 
     margin-right: 10px;
 }
-#card0-astroIcon, #card1-astroIcon, #card2-astroIcon, #card3-astroIcon, #card4-astroIcon, #card5-astroIcon, #card6-astroIcon, #card7-astroIcon, #card8-astroIcon, #card9-astroIcon, #card10-astroIcon, #card11-astroIcon, #card12-astroIcon, #card13-astroIcon, #card14-astroIcon {
+#card1-astroIcon, #card2-astroIcon, #card3-astroIcon, #card4-astroIcon, #card5-astroIcon, #card6-astroIcon, #card7-astroIcon, #card8-astroIcon, #card9-astroIcon, #card10-astroIcon, #card11-astroIcon, #card12-astroIcon, #card13-astroIcon, #card14-astroIcon {
     width: 30px;
     height: 30px;
     background-color: #f565aa;
 
     margin-right: 10px;
 }
-#card0-keyUp, #card1-keyUp, #card2-keyUp, #card3-keyUp, #card4-keyUp, #card5-keyUp, #card6-keyUp, #card7-keyUp, #card8-keyUp, #card9-keyUp, #card10-keyUp, #card11-keyUp, #card12-keyUp, #card13-keyUp, #card14-keyUp {
+#card1-keyUp, #card2-keyUp, #card3-keyUp, #card4-keyUp, #card5-keyUp, #card6-keyUp, #card7-keyUp, #card8-keyUp, #card9-keyUp, #card10-keyUp, #card11-keyUp, #card12-keyUp, #card13-keyUp, #card14-keyUp {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -168,8 +169,12 @@
     margin-bottom: 2px;
     margin-left: 20px;
 }
-#card0-keyRev, #card1-keyRev, #card2-keyRev, #card3-keyRev, #card4-keyRev, #card5-keyRev, #card6-keyRev, #card7-keyRev, #card8-keyRev, #card9-keyRev, #card10-keyRev, #card11-keyRev, #card12-keyRev, #card13-keyRev, #card14-keyRev {
+#card1-keyRev, #card2-keyRev, #card3-keyRev, #card4-keyRev, #card5-keyRev, #card6-keyRev, #card7-keyRev, #card8-keyRev, #card9-keyRev, #card10-keyRev, #card11-keyRev, #card12-keyRev, #card13-keyRev, #card14-keyRev {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+#buffer {
+    height: 40px;
 }

@@ -1,6 +1,11 @@
 console.log('working')
 
 const getData = async () => {
+    const responseUsers = await axios.get(`http://localhost:3001/users`)
+    console.log(responseUsers)
+    const user_img = document.querySelector('#user-img')
+    user_img.src = responseUsers.data[0].img   
+
     const responseCards = await axios.get(`http://localhost:3001/cards`)
     console.log(responseCards)
 

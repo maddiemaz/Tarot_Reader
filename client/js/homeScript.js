@@ -8,8 +8,8 @@ const getData = async () => {
 
     const user_img = document.querySelector('#user-img')
     user_img.src = responseUsers.data[0].img
-    const user_name = document.querySelector('#greeting')
-    user_name.innerText = `merry meet, ${responseUsers.data[0].name}`
+    // const user_name = document.querySelector('#greeting')
+    // user_name.innerText = `merry meet, ${responseUsers.data[0].name}`
 
     const cotd_name = document.querySelector('#cotd-name')
     cotd_name.innerText = responseCards.data[0].name

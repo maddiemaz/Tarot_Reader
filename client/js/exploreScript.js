@@ -9,41 +9,29 @@ const getData = async () => {
 }
 getData()
 
+// Primary Nav
 const exploreMajor = document.querySelector('#explore-majorArcana')
-homePage.addEventListener('click', () => {
+exploreMajor.addEventListener('click', () => {
     // Move to Major Arcana - Many page
-    window.location.href = "infoMajorMany.html"
+    window.location.href = "majorMany.html"
 })
 const exploreWands = document.querySelector('#explore-Wands')
 exploreWands.addEventListener('click', () => {
     // Move to Wands - Many page
-    window.location.href = "infoWandsMany.html"
+    window.location.href = "wandsMany.html"
 })
 const exploreSwords = document.querySelector('#explore-Swords')
 exploreSwords.addEventListener('click', () => {
     // Move to Swords - Many page
-    window.location.href = "infoSwordsMany.html"
+    window.location.href = "swordsMany.html"
 })
 const exploreCups = document.querySelector('#explore-Cups')
 exploreCups.addEventListener('click', () => {
     // Move to Cups - Many page
-    window.location.href = "infoCupsMany.html"
+    window.location.href = "cupsMany.html"
 })
 const explorePentacles = document.querySelector('#explore-Pentacles')
 explorePentacles.addEventListener('click', () => {
     // Move to Pentacles - Many page
-    window.location.href = "infoCupsMany.html"
+    window.location.href = "pentaclesMany.html"
 })
-
-const homePage = document.querySelector('#logo')
-homePage.addEventListener('click', () => {
-    // Move to Home page
-    window.location.href = "homePage.html"
-})
-const usersPage = document.querySelector('#logo')
-userPage.addEventListener('click', () => {
-    // Move to User page
-    window.location.href = "userPage.html"
-})
-
-

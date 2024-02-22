@@ -1,89 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Astloch:wght@400;700&family=New+Rocker&display=swap');
 
-*{
-    font-family: "Abel", sans-serif;
-    color: white;
-}
-#body {
-    /* background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #3ce7bf); */
-    background: linear-gradient(-45deg, #a24cc4, #216cb2, #2e3dc9, #2330a3);
-    background-size: 100% 100%;
-    /* animation: gradient 15s ease infinite; */
-	height: 100vh;
-    /* background-repeat: none; */
-
-}
-#header-Main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-#menu {
-    margin-left: 20px;
-    
-    background-color: white;
-    width: 60px;
-    height: 60px;
-}
-#logo {
-    background-color: white;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-}
-#user-img {
-    margin-right: 20px;
-
-    background-color: white;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-}
-
-#header-Index {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100vw;
-
-    background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #304be4);
-    height: 60px;
-
-    margin-bottom: 20px;
-}
-#backButton {
-    background-color: white;
-    width: 30px;
-    height: 40px;
-
-    margin-left: 20px;
-}
-#suitName {
-    font-family: "Astloch", system-ui;
-    font-weight: 700;
-    font-size: 32px;
-    text-shadow: 1px 1px 3px #2330a3;
-}
-#dropdown {
-    background-color: white;
-    width: 40px;
-    height: 30px;
-
-    margin-right: 20px;
-}
-
-#content-Many {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 #img-many {
     margin-right: 10px;
 }
@@ -134,6 +50,10 @@
     /* font-family: "New Rocker", system-ui; */
     /* font-family: "Astloch", system-ui; */
     margin-top: 5px;
+
+    max-width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 #card0-elementIcon, #card1-elementIcon, #card2-elementIcon, #card3-elementIcon, #card4-elementIcon, #card5-elementIcon, #card6-elementIcon, #card7-elementIcon, #card8-elementIcon, #card9-elementIcon, #card10-elementIcon, #card11-elementIcon, #card12-elementIcon, #card13-elementIcon, #card14-elementIcon, #card15-elementIcon, #card16-elementIcon, #card17-elementIcon, #card18-elementIcon, #card19-elementIcon, #card20-elementIcon, #card21-elementIcon {
     width: 30px;
@@ -173,8 +93,4 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-#buffer {
-    height: 40px;
 }

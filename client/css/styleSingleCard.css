@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Astloch:wght@400;700&family=New+Rocker&display=swap');
+
+#header-Index {
+    background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #304be4);
+    height: 40px;
+}
+#header-Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    height: 60px;
+
+    background-color: black;
+    box-shadow: 2px 2px 2px black;
+
+    z-index: 1030;
+}
+#suitName {
+    font-family: "Astloch", system-ui;
+    font-weight: 700;
+    font-size: 26px;
+    text-shadow: 1px 1px 3px #2330a3;
+}
+#headerName{
+    font-family: "Astloch", system-ui;
+    font-weight: 700;
+    font-size: 32px;
+}
+#index-Border {
+    background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #304be4);
+    top: 13.25rem;
+}
+#backButton {
+    height: 25px;
+}
+/* Style The Dropdown Button */
+#dropdown-icon {
+    height: 30px;
+} 
+
+#content-single {
+    top: 15rem;
+}
+#img-single {
+    margin-bottom: 1.5rem;
+}
+#icons-single {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 300px;
+    min-width: 150px;
+}
+#element-single, #planet-single, #astro-single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#keywords-single {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#keywordsUp, #keywordsRev {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#key-line {
+    background-color: white;
+    height: 60px;
+    width: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#text-single {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#imgUp {
+    background-color: #c55af0;
+    width: 200px;
+    height: 300px;
+}
+#element-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #30b4e4;
+
+    /* margin-right: 10px; */
+}
+#planet-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #a24cc4;
+
+    /* margin-right: 10px; */
+}
+#astro-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f565aa;
+
+    /* margin-right: 10px; */
+}
+#element-name, #planet-name, #astro-name {
+    margin-top: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#key-prompt {
+    font-size: 12px;
+}
+#key-Up, #key-Rev {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+
+    font-size: 16px;
+}
+#card-name {
+    font-size: 26px;
+    /* font-family: "New Rocker", system-ui; */
+    /* font-family: "Astloch", system-ui; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#meaning-prompt {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+    text-align: center;
+    font-family: "Astloch", system-ui;
+}
+#meaning-Up, #meaningRev {
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+    text-align: justify;
+}
+
+/* #buffer {
+    height: 10rem;
+} */

@@ -1,68 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Astloch:wght@400;700&family=New+Rocker&display=swap');
 
-*{
-    font-family: "Abel", sans-serif;
-    color: white;
-}
-#body {
-    /* background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #3ce7bf); */
-    background: linear-gradient(-45deg, #a24cc4, #216cb2, #2e3dc9, #2330a3);
-    background-size: 100% 100%;
-    /* animation: gradient 15s ease infinite; */
-	height: 100vh;
-    /* background-repeat: none; */
-
-}
-#header-Main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: top;
-
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-#menu {
-    margin-left: 20px;
-    
-    background-color: white;
-    width: 60px;
-    height: 60px;
-}
-#logo {
-    background-color: white;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-}
-#user-img {
-    margin-right: 20px;
-
-    background-color: white;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-}
-
 #header-Index {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* justify-content: center; */
-    align-items: center;
-    width: 100vw;
-
-    background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #304be4);
-    height: 60px;
-
-    margin-bottom: 20px;
-}
-#title {
-    font-family: "Astloch", system-ui;
-    font-weight: 700;
-    font-size: 32px;
-    margin-left: 28%;
-    text-shadow: 1px 1px 3px #2330a3;
+    justify-content: center;
 }
 #filter {
     background-color: white;
@@ -79,7 +18,7 @@
     justify-content: center;
     align-items: center;
 
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 #layoutArea {
     display: flex;
@@ -148,8 +87,4 @@
     height: 40px;
 
     /* box-shadow: 2px 2px 5px #1b2687; */
-}
-
-#buffer {
-    height: 60px;
 }

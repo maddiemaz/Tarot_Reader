@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="js/script-basicNav.js"></script>
     <script defer src="js/userScript.js"></script>
+    <link rel="stylesheet" href="css/style-general.css">
     <link rel="stylesheet" href="css/styleUser.css">
     <title>User Profile</title>
 </head>
 <body>
     <body id="body">
         <div id="header-Main">
-            <div id="menu"></div>
+            <div id="menu" onclick="openMenu()">&#9776</div>
             <div id="user-img"></div>
             <div id="logo"></div>
         </div>
         <div id="content-user">
-            <div id="user-name">pansy</div>
+            <div id="user-name">Mandy</div>
             <div id="user-sign">
                 <div id="prompt">Sign:</div>
                 <div id="astro">Scorpio</div>
@@ -26,25 +28,30 @@
                 <div id="prompt">Spirit Animal:</div>
                 <div id="user-spiritAnimal">Hyena</div>
         </div>
-        <!-- <div id="preview-lastReading">
-            <div id="lastReading">last reading</div>
-            <div id="layoutArea">
-                <div id="card1"></div>
-                <div id="card2"></div>
-                <div id="card3"></div>
-            </div>
-            <div id="info">
-                <div id="intention">Career</div>
-                <div id="layout">Decision</div>
-            </div>
-            <div id="date">2.22.2024</div>
-        </div> -->
 
         <div id="options">
             <div id="pastReadings">past readings</div>
             <div id="settings">settings</div>
             <div id="editUser">edit profile</div>
             <div id="logOut">log out</div>
+        </div>
+
+        <div id="sideMenu" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            
+            <div id="menuTitle">
+                <div id="menu-title">Midnight Tarot</div>
+            </div>
+            <div id="menuOptions">
+                <div id="menu-explore">explore</div>
+                <div id="menu-newReading">new reading</div>
+                <div id="menu-pastReadings">past readings</div>
+                <div id="menu-about">about</div>
+            </div>
+            <div id="menuHelp">
+                <div id="menu-help">help</div>
+                <div id="menu-contactUs">contact us</div>
+            </div>
         </div>
 </body>
 </html>

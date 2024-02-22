@@ -4,19 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="js/script-basicNav.js"></script>
     <script defer src="js/pastScript.js"></script>
+    <link rel="stylesheet" href="css/style-general.css">
     <link rel="stylesheet" href="css/stylePast.css">
     <title>Past Readings</title>
 </head>
 <body id="body">
+    <div id="background"></div>
     <div id="header-Main">
-        <div id="menu"></div>
+        <div id="menu" onclick="openMenu()">&#9776</div>
         <div id="logo"></div>
         <div id="user-img"></div>
     </div>
-    <div id="header-Index">
-        <div id="title">Past Readings</div>
-        <div id="filter"></div>
+
+    <div id="index-Content">
+        <div id="header-Index">
+            <div id="headerName">Past Readings</div>
+            <!-- <div id="filter"></div> -->
+        </div>
+        <div id="index-Border"></div>
+    </div>
+
+    <div id="sideMenu" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        <div id="menuTitle">
+            <div id="menu-title">Midnight Tarot</div>
+        </div>
+        <div id="menuOptions">
+            <div id="menu-explore">explore</div>
+            <div id="menu-newReading">new reading</div>
+            <div id="menu-pastReadings">past readings</div>
+            <div id="menu-about">about</div>
+        </div>
+        <div id="menuHelp">
+            <div id="menu-help">help</div>
+            <div id="menu-contactUs">contact us</div>
+        </div>
     </div>
 
     <div id="content-past">

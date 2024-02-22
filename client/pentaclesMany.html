@@ -4,22 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script defer src="js/infoManyScript/swordsMany.js"></script>
+    <script defer src="js/script-basicNav.js"></script>
+    <script defer src="js/infoManyScript/pentaclesMany.js"></script>
+    <link rel="stylesheet" href="css/style-general.css">
     <link rel="stylesheet" href="css/styleMinorMany.css">
-    <title>Swords</title>
+    <title>Pentacles</title>
 </head>
-<body id="body">
+<body>
+    <div id="background"></div>
     <div id="header-Main">
-        <div id="menu"></div>
+        <div id="menu" onclick="openMenu()">&#9776</div>
         <div id="logo"></div>
         <div id="user-img"></div>
     </div>
-    <div id="header-Index">
-        <div id="backButton"></div>
-        <div id="suitName">Swords</div>
-        <div id="dropdown"></div>
+    <div class="dropdown" id="index-Content">
+        <div id="header-Index">
+            <div id="backButton"></div>
+            <div id="headerName">Pentacles</div>
+            <button id="dropdown-icon">v</button>
+            <div class="dropdown-content">
+              <a href="majorMany.html">Major Arcana</a>
+              <a href="wandsMany.html">Wands</a>
+              <a href="swordsMany.html">Swords</a>
+              <a href="cupsMany.html">Cups</a>
+              <a href="pentaclesMany.html">Pentacles</a>
+            </div>
+        </div>
+        <div id="index-Border"></div>
     </div>
-    <div id="content-Many">
+
+    <div id="sideMenu" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        <div id="menuTitle">
+            <div id="menu-title">Midnight Tarot</div>
+        </div>
+        <div id="menuOptions">
+            <div id="menu-explore">explore</div>
+            <div id="menu-newReading">new reading</div>
+            <div id="menu-pastReadings">past readings</div>
+            <div id="menu-about">about</div>
+        </div>
+        <div id="menuHelp">
+            <div id="menu-help">help</div>
+            <div id="menu-contactUs">contact us</div>
+        </div>
+    </div>
+
+    <div id="content-many">
         <div id="card1">
             <div id="img-many">
                 <div id="card1-imgUp"></div>
@@ -30,7 +61,7 @@
                     <div id="card1-planetIcon"></div>
                     <div id="card1-astroIcon"></div>
                 </div>
-                <div id="card1-name">Ace of Swords</div>
+                <div id="card1-name">Ace of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card1-keyUp"></div>
                     <div id="key-line"></div>
@@ -49,7 +80,7 @@
                     <div id="card2-planetIcon"></div>
                     <div id="card2-astroIcon"></div>
                 </div>
-                <div id="card2-name">Two of Swords</div>
+                <div id="card2-name">Two of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card2-keyUp"></div>
                     <div id="key-line"></div>
@@ -68,7 +99,7 @@
                     <div id="card3-planetIcon"></div>
                     <div id="card3-astroIcon"></div>
                 </div>
-                <div id="card3-name">Three of Swords</div>
+                <div id="card3-name">Three of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card3-keyUp"></div>
                     <div id="key-line"></div>
@@ -87,7 +118,7 @@
                     <div id="card4-planetIcon"></div>
                     <div id="card4-astroIcon"></div>
                 </div>
-                <div id="card4-name">Four of Swords</div>
+                <div id="card4-name">Four of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card4-keyUp"></div>
                     <div id="key-line"></div>
@@ -106,7 +137,7 @@
                     <div id="card5-planetIcon"></div>
                     <div id="card5-astroIcon"></div>
                 </div>
-                <div id="card5-name">Five of Swords</div>
+                <div id="card5-name">Five of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card5-keyUp"></div>
                     <div id="key-line"></div>
@@ -125,7 +156,7 @@
                     <div id="card6-planetIcon"></div>
                     <div id="card6-astroIcon"></div>
                 </div>
-                <div id="card6-name">Six of Swords</div>
+                <div id="card6-name">Six of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card6-keyUp"></div>
                     <div id="key-line"></div>
@@ -144,7 +175,7 @@
                     <div id="card7-planetIcon"></div>
                     <div id="card7-astroIcon"></div>
                 </div>
-                <div id="card7-name">Seven of Swords</div>
+                <div id="card7-name">Seven of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card7-keyUp"></div>
                     <div id="key-line"></div>
@@ -163,7 +194,7 @@
                     <div id="card8-planetIcon"></div>
                     <div id="card8-astroIcon"></div>
                 </div>
-                <div id="card8-name">Eight of Swords</div>
+                <div id="card8-name">Eight of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card8-keyUp"></div>
                     <div id="key-line"></div>
@@ -182,7 +213,7 @@
                     <div id="card9-planetIcon"></div>
                     <div id="card9-astroIcon"></div>
                 </div>
-                <div id="card9-name">Nine of Swords</div>
+                <div id="card9-name">Nine of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card9-keyUp"></div>
                     <div id="key-line"></div>
@@ -201,7 +232,7 @@
                     <div id="card10-planetIcon"></div>
                     <div id="card10-astroIcon"></div>
                 </div>
-                <div id="card10-name">Ten of Swords</div>
+                <div id="card10-name">Ten of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card10-keyUp"></div>
                     <div id="key-line"></div>
@@ -220,7 +251,7 @@
                     <div id="card11-planetIcon"></div>
                     <div id="card11-astroIcon"></div>
                 </div>
-                <div id="card11-name">Page of Swords</div>
+                <div id="card11-name">Page of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card11-keyUp"></div>
                     <div id="key-line"></div>
@@ -239,7 +270,7 @@
                     <div id="card12-planetIcon"></div>
                     <div id="card12-astroIcon"></div>
                 </div>
-                <div id="card12-name">Knight of Swords</div>
+                <div id="card12-name">Knight of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card12-keyUp"></div>
                     <div id="key-line"></div>
@@ -258,7 +289,7 @@
                     <div id="card13-planetIcon"></div>
                     <div id="card13-astroIcon"></div>
                 </div>
-                <div id="card13-name">Queen of Swords</div>
+                <div id="card13-name">Queen of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card13-keyUp"></div>
                     <div id="key-line"></div>
@@ -277,7 +308,7 @@
                     <div id="card14-planetIcon"></div>
                     <div id="card14-astroIcon"></div>
                 </div>
-                <div id="card14-name">King of Swords</div>
+                <div id="card14-name">King of Pentacles</div>
                 <div id="keywords-many">
                     <div id="card14-keyUp"></div>
                     <div id="key-line"></div>

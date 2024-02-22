@@ -1,4 +1,4 @@
-console.log('working')
+console.log('User Script - Working')
 
 const getData = async () => {
     const responseUsers = await axios.get(`http://localhost:3001/users`)
@@ -18,14 +18,9 @@ const getData = async () => {
 }
 getData()
 
+// Primary Nav
 const pastPage = document.querySelector('#pastReadings')
 pastPage.addEventListener('click', () => {
     // Move to Past Readings page
     window.location.href = "pastPage.html"
-})
-
-const homePage = document.querySelector('#logo')
-homePage.addEventListener('click', () => {
-    // Move to Home page
-    window.location.href = "homePage.html"
 })

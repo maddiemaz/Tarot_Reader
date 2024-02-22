@@ -239,16 +239,10 @@ const getData = async () => {
 
     
 }
-
 getData()
 
-const homePage = document.querySelector('#logo')
-homePage.addEventListener('click', () => {
-    // Move to Home page
-    window.location.href = "index.html"
-})
-const userPage = document.querySelector('#user-Img')
-userPage.addEventListener('click', () => {
-    // Move to User page
-    window.location.href = "userPage.html"
+const backButton = document.querySelector('#backButton')
+backButton.addEventListener('click', () => {
+    // Move back to Explore page
+    window.location.href = "explorePage.html"
 })

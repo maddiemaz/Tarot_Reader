@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="js/script-basicNav.js"></script>
     <script defer src="js/exploreScript.js"></script>
+    <link rel="stylesheet" href="css/style-general.css">
     <link rel="stylesheet" href="css/styleExplore.css">
     <title>Explore</title>
 </head>
 <body id="body">
+    <div id="background"></div>
     <div id="header-Main">
-        <div id="menu"></div>
+        <div id="menu" onclick="openMenu()">&#9776</div>
         <div id="logo"></div>
         <div id="user-img"></div>
     </div>
-    <div id="header-Index">
-        <div id="suitName">Explore</div>
+
+    <div id="index-Content">
+        <div id="header-Index">
+            <div id="headerName">Explore</div>
+        </div>
+        <div id="index-Border"></div>
     </div>
+
     <div id="content-explore">
         <div id="explore-majorArcana">
             <div id="explore-major-elementIcon"></div>
             <div id="explore-major-suit">Major Arcana</div>
         </div>
-        <div id="minorArcana">
+        <div id="explore-minorArcana">
             <div id="explore-Wands">
                 <div id="explore-wands-elementIcon"></div>
                 <div id="explore-wands-suit">Wands</div>
@@ -40,11 +48,26 @@
                 <div id="explore-pentacles-suit">Pentacles</div>
             </div>
         </div>
+    </div>
         
+    <div id="sideMenu" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        
+        <div id="menuTitle">
+            <div id="menu-title">Midnight Tarot</div>
+        </div>
+        <div id="menuOptions">
+            <div id="menu-explore">explore</div>
+            <div id="menu-newReading">new reading</div>
+            <div id="menu-pastReadings">past readings</div>
+            <div id="menu-about">about</div>
+        </div>
+        <div id="menuHelp">
+            <div id="menu-help">help</div>
+            <div id="menu-contactUs">contact us</div>
+        </div>
     </div>
-    
 
-    </div>
     
 </body>
 </html>

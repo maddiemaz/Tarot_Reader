@@ -4,6 +4,21 @@
     background: linear-gradient(-45deg, #f565aa, #c55af0, #30b4e4, #304be4);
     height: 40px;
 }
+/* .headerSuit-Major {
+    background: linear-gradient(45deg, #731aa7, #9535cd, #c55af0);
+}
+.headerSuit-Wands {
+    background: linear-gradient(45deg, #731aa7, #9535cd, #c55af0);
+}
+.headerSuit-Swords {
+    background: linear-gradient(45deg, #731aa7, #9535cd, #c55af0);
+}
+.headerSuit-Cups {
+    background: linear-gradient(45deg, #731aa7, #9535cd, #c55af0);
+}
+.headerSuit-Pentacles {
+    background: linear-gradient(45deg, #731aa7, #9535cd, #c55af0);
+} */
 #header-Card {
     display: flex;
     flex-direction: row;
@@ -22,7 +37,7 @@
     font-family: "Astloch", system-ui;
     font-weight: 700;
     font-size: 26px;
-    text-shadow: 1px 1px 3px #2330a3;
+    /* text-shadow: 1px 1px 3px #2330a3; */
 }
 #headerName{
     font-family: "Astloch", system-ui;

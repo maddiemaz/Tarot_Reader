@@ -24,13 +24,27 @@
     display: flex;
     flex-direction: row;
 }
-#card1, #card2, #card3 {
+.readingCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 10px;
+}
+.sampleCard {
     width: 85px;
     height: 130px;
     background-color: #f565aa;
     margin: 10px;
 }
+.cardName {
+    max-width: 90px;
+    flex-wrap: wrap;
+    text-align: center;
+}
 #date {
+    font-weight: 700;
     font-size: 24px;
 }
 #info {

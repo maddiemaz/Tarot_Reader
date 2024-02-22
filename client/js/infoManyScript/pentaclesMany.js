@@ -25,7 +25,7 @@ const getData = async () => {
     const pentaclesA_keyUp = document.querySelector('#card1-keyUp')
     pentaclesA_keyUp.innerText = responseCards.data[64].up_key
     const pentaclesA_keyRev = document.querySelector('#card1-keyUp')
-    pentaclesA_keyRev.innerText = responseCards.data[64].rev_keys
+    pentaclesA_keyRev.innerText = responseCards.data[64].rev_key
     // const pentaclessA_Explore = document.querySelector('#card1-explore')
 
     const pentacles2_img = document.querySelector('#card2-imgUp')
@@ -41,7 +41,7 @@ const getData = async () => {
     const pentacles2_keyUp = document.querySelector('#card2-keyUp')
     pentacles2_keyUp.innerText = responseCards.data[65].up_key
     const pentacles2_keyRev = document.querySelector('#card2-keyUp')
-    pentacles2_keyRev.innerText = responseCards.data[65].rev_keys
+    pentacles2_keyRev.innerText = responseCards.data[65].rev_key
     // const card2Explore = document.querySelector('#card2-explore')
 
     const pentacles3_img = document.querySelector('#card3-imgUp')
@@ -57,7 +57,7 @@ const getData = async () => {
     const pentacles3_keyUp = document.querySelector('#card3-keyUp')
     pentacles3_keyUp.innerText = responseCards.data[66].up_key
     const pentacles3_keyRev = document.querySelector('#card3-keyUp')
-    pentacles3_keyRev.innerText = responseCards.data[66].rev_keys
+    pentacles3_keyRev.innerText = responseCards.data[66].rev_key
     // const card3Explore = document.querySelector('#card3-explore')
 
     const pentacles4_img = document.querySelector('#card4-imgUp')
@@ -73,7 +73,7 @@ const getData = async () => {
     const pentacles4_keyUp = document.querySelector('#card4-keyUp')
     pentacles4_keyUp.innerText = responseCards.data[67].up_key
     const pentacles4_keyRev = document.querySelector('#card4-keyUp')
-    pentacles4_keyRev.innerText = responseCards.data[67].rev_keys
+    pentacles4_keyRev.innerText = responseCards.data[67].rev_key
     // const card4Explore = document.querySelector('#card4-explore')
 
     const pentacles5_img = document.querySelector('#card5-imgUp')
@@ -89,7 +89,7 @@ const getData = async () => {
     const pentacles5_keyUp = document.querySelector('#card5-keyUp')
     pentacles5_keyUp.innerText = responseCards.data[68].up_key
     const pentacles5_keyRev = document.querySelector('#card5-keyUp')
-    pentacles5_keyRev.innerText = responseCards.data[68].rev_keys
+    pentacles5_keyRev.innerText = responseCards.data[68].rev_key
     // const card5Explore = document.querySelector('#card5-explore')
 
     const pentacles6_img = document.querySelector('#card6-imgUp')
@@ -105,7 +105,7 @@ const getData = async () => {
     const pentacles6_keyUp = document.querySelector('#card6-keyUp')
     pentacles6_keyUp.innerText = responseCards.data[69].up_key
     const pentacles6_keyRev = document.querySelector('#card6-keyUp')
-    pentacles6_keyRev.innerText = responseCards.data[69].rev_keys
+    pentacles6_keyRev.innerText = responseCards.data[69].rev_key
     // const card6Explore = document.querySelector('#card6-explore')
 
     const pentacles7_img = document.querySelector('#card7-imgUp')
@@ -121,7 +121,7 @@ const getData = async () => {
     const pentacles7_keyUp = document.querySelector('#card7-keyUp')
     pentacles7_keyUp.innerText = responseCards.data[70].up_key
     const pentacles7_keyRev = document.querySelector('#card7-keyUp')
-    pentacles7_keyRev.innerText = responseCards.data[70].rev_keys
+    pentacles7_keyRev.innerText = responseCards.data[70].rev_key
     // const card7Explore = document.querySelector('#card7-explore')
 
     const pentacles8_img = document.querySelector('#card8-imgUp')
@@ -137,7 +137,7 @@ const getData = async () => {
     const pentacles8_keyUp = document.querySelector('#card8-keyUp')
     pentacles8_keyUp.innerText = responseCards.data[71].up_key
     const pentacles8_keyRev = document.querySelector('#card8-keyUp')
-    pentacles8_keyRev.innerText = responseCards.data[71].rev_keys
+    pentacles8_keyRev.innerText = responseCards.data[71].rev_key
     // const card8Explore = document.querySelector('#card8-explore')
 
     const pentacles9_img = document.querySelector('#card9-imgUp')
@@ -153,7 +153,7 @@ const getData = async () => {
     const pentacles9_keyUp = document.querySelector('#card9-keyUp')
     pentacles9_keyUp.innerText = responseCards.data[72].up_key
     const pentacles9_keyRev = document.querySelector('#card9-keyUp')
-    pentacles9_keyRev.innerText = responseCards.data[72].rev_keys
+    pentacles9_keyRev.innerText = responseCards.data[72].rev_key
     // const card9Explore = document.querySelector('#card9-explore')
 
     const pentacles10_img = document.querySelector('#card10-imgUp')
@@ -169,7 +169,7 @@ const getData = async () => {
     const pentacles10_keyUp = document.querySelector('#card10-keyUp')
     pentacles10_keyUp.innerText = responseCards.data[73].up_key
     const pentacles10_keyRev = document.querySelector('#card10-keyUp')
-    pentacles10_keyRev.innerText = responseCards.data[73].rev_keys
+    pentacles10_keyRev.innerText = responseCards.data[73].rev_key
     // const card10Explore = document.querySelector('#card10-explore')
 
     const pentaclesP_img = document.querySelector('#card11-imgUp')
@@ -185,7 +185,7 @@ const getData = async () => {
     const pentaclesP_keyUp = document.querySelector('#card11-keyUp')
     pentaclesP_keyUp.innerText = responseCards.data[74].up_key
     const pentaclesP_keyRev = document.querySelector('#card11-keyUp')
-    pentaclesP_keyRev.innerText = responseCards.data[74].rev_keys
+    pentaclesP_keyRev.innerText = responseCards.data[74].rev_key
     // const card11Explore = document.querySelector('#card11-explore')
 
     const pentaclesKn_img = document.querySelector('#card12-imgUp')
@@ -201,7 +201,7 @@ const getData = async () => {
     const pentaclesKn_keyUp = document.querySelector('#card12-keyUp')
     pentaclesKn_keyUp.innerText = responseCards.data[75].up_key
     const pentaclesKn_keyRev = document.querySelector('#card12-keyUp')
-    pentaclesKn_keyRev.innerText = responseCards.data[75].rev_keys
+    pentaclesKn_keyRev.innerText = responseCards.data[75].rev_key
     // const card12Explore = document.querySelector('#card12-explore')
 
     const pentaclesQ_img = document.querySelector('#card13-imgUp')
@@ -217,7 +217,7 @@ const getData = async () => {
     const pentaclesQ_keyUp = document.querySelector('#card13-keyUp')
     pentaclesQ_keyUp.innerText = responseCards.data[76].up_key
     const pentaclesQ_keyRev = document.querySelector('#card13-keyUp')
-    pentaclesQ_keyRev.innerText = responseCards.data[76].rev_keys
+    pentaclesQ_keyRev.innerText = responseCards.data[76].rev_key
     // const card13Explore = document.querySelector('#card13-explore')
 
     const pentaclesKi_img = document.querySelector('#card14-imgUp')
@@ -233,7 +233,7 @@ const getData = async () => {
     const pentaclesKi_keyUp = document.querySelector('#card14-keyUp')
     pentaclesKi_keyUp.innerText = responseCards.data[77].up_key
     const pentaclesKi_keyRev = document.querySelector('#card14-keyUp')
-    pentaclesKi_keyRev.innerText = responseCards.data[77].rev_keys
+    pentaclesKi_keyRev.innerText = responseCards.data[77].rev_key
     // const card14Explore = document.querySelector('#card14-explore')
 
     

@@ -26,7 +26,7 @@ const getData = async () => {
     const cupsA_keyUp = document.querySelector('#card1-keyUp')
     cupsA_keyUp.innerText = responseCards.data[50].up_key
     const cupsA_keyRev = document.querySelector('#card1-keyUp')
-    cupsA_keyRev.innerText = responseCards.data[50].rev_keys
+    cupsA_keyRev.innerText = responseCards.data[50].rev_key
     // const cupssA_Explore = document.querySelector('#card1-explore')
 
     const cups2_img = document.querySelector('#card2-imgUp')
@@ -42,7 +42,7 @@ const getData = async () => {
     const cups2_keyUp = document.querySelector('#card2-keyUp')
     cups2_keyUp.innerText = responseCards.data[51].up_key
     const cups2_keyRev = document.querySelector('#card2-keyUp')
-    cups2_keyRev.innerText = responseCards.data[51].rev_keys
+    cups2_keyRev.innerText = responseCards.data[51].rev_key
     // const card2Explore = document.querySelector('#card2-explore')
 
     const cups3_img = document.querySelector('#card3-imgUp')
@@ -58,7 +58,7 @@ const getData = async () => {
     const cups3_keyUp = document.querySelector('#card3-keyUp')
     cups3_keyUp.innerText = responseCards.data[52].up_key
     const cups3_keyRev = document.querySelector('#card3-keyUp')
-    cups3_keyRev.innerText = responseCards.data[52].rev_keys
+    cups3_keyRev.innerText = responseCards.data[52].rev_key
     // const card3Explore = document.querySelector('#card3-explore')
 
     const cups4_img = document.querySelector('#card4-imgUp')
@@ -74,7 +74,7 @@ const getData = async () => {
     const cups4_keyUp = document.querySelector('#card4-keyUp')
     cups4_keyUp.innerText = responseCards.data[53].up_key
     const cups4_keyRev = document.querySelector('#card4-keyUp')
-    cups4_keyRev.innerText = responseCards.data[53].rev_keys
+    cups4_keyRev.innerText = responseCards.data[53].rev_key
     // const card4Explore = document.querySelector('#card4-explore')
 
     const cups5_img = document.querySelector('#card5-imgUp')
@@ -90,7 +90,7 @@ const getData = async () => {
     const cups5_keyUp = document.querySelector('#card5-keyUp')
     cups5_keyUp.innerText = responseCards.data[54].up_key
     const cups5_keyRev = document.querySelector('#card5-keyUp')
-    cups5_keyRev.innerText = responseCards.data[54].rev_keys
+    cups5_keyRev.innerText = responseCards.data[54].rev_key
     // const card5Explore = document.querySelector('#card5-explore')
 
     const cups6_img = document.querySelector('#card6-imgUp')
@@ -106,7 +106,7 @@ const getData = async () => {
     const cups6_keyUp = document.querySelector('#card6-keyUp')
     cups6_keyUp.innerText = responseCards.data[55].up_key
     const cups6_keyRev = document.querySelector('#card6-keyUp')
-    cups6_keyRev.innerText = responseCards.data[55].rev_keys
+    cups6_keyRev.innerText = responseCards.data[55].rev_key
     // const card6Explore = document.querySelector('#card6-explore')
 
     const cups7_img = document.querySelector('#card7-imgUp')
@@ -122,7 +122,7 @@ const getData = async () => {
     const cups7_keyUp = document.querySelector('#card7-keyUp')
     cups7_keyUp.innerText = responseCards.data[56].up_key
     const cups7_keyRev = document.querySelector('#card7-keyUp')
-    cups7_keyRev.innerText = responseCards.data[56].rev_keys
+    cups7_keyRev.innerText = responseCards.data[56].rev_key
     // const card7Explore = document.querySelector('#card7-explore')
 
     const cups8_img = document.querySelector('#card8-imgUp')
@@ -138,7 +138,7 @@ const getData = async () => {
     const cups8_keyUp = document.querySelector('#card8-keyUp')
     cups8_keyUp.innerText = responseCards.data[57].up_key
     const cups8_keyRev = document.querySelector('#card8-keyUp')
-    cups8_keyRev.innerText = responseCards.data[57].rev_keys
+    cups8_keyRev.innerText = responseCards.data[57].rev_key
     // const card8Explore = document.querySelector('#card8-explore')
 
     const cups9_img = document.querySelector('#card9-imgUp')
@@ -154,7 +154,7 @@ const getData = async () => {
     const cups9_keyUp = document.querySelector('#card9-keyUp')
     cups9_keyUp.innerText = responseCards.data[58].up_key
     const cups9_keyRev = document.querySelector('#card9-keyUp')
-    cups9_keyRev.innerText = responseCards.data[58].rev_keys
+    cups9_keyRev.innerText = responseCards.data[58].rev_key
     // const card9Explore = document.querySelector('#card9-explore')
 
     const cups10_img = document.querySelector('#card10-imgUp')
@@ -170,7 +170,7 @@ const getData = async () => {
     const cups10_keyUp = document.querySelector('#card10-keyUp')
     cups10_keyUp.innerText = responseCards.data[59].up_key
     const cups10_keyRev = document.querySelector('#card10-keyUp')
-    cups10_keyRev.innerText = responseCards.data[59].rev_keys
+    cups10_keyRev.innerText = responseCards.data[59].rev_key
     // const card10Explore = document.querySelector('#card10-explore')
 
     const cupsP_img = document.querySelector('#card11-imgUp')
@@ -186,7 +186,7 @@ const getData = async () => {
     const cupsP_keyUp = document.querySelector('#card11-keyUp')
     cupsP_keyUp.innerText = responseCards.data[60].up_key
     const cupsP_keyRev = document.querySelector('#card11-keyUp')
-    cupsP_keyRev.innerText = responseCards.data[60].rev_keys
+    cupsP_keyRev.innerText = responseCards.data[60].rev_key
     // const card11Explore = document.querySelector('#card11-explore')
 
     const cupsKn_img = document.querySelector('#card12-imgUp')
@@ -202,7 +202,7 @@ const getData = async () => {
     const cupsKn_keyUp = document.querySelector('#card12-keyUp')
     cupsKn_keyUp.innerText = responseCards.data[61].up_key
     const cupsKn_keyRev = document.querySelector('#card12-keyUp')
-    cupsKn_keyRev.innerText = responseCards.data[61].rev_keys
+    cupsKn_keyRev.innerText = responseCards.data[61].rev_key
     // const card12Explore = document.querySelector('#card12-explore')
 
     const cupsQ_img = document.querySelector('#card13-imgUp')
@@ -218,7 +218,7 @@ const getData = async () => {
     const cupsQ_keyUp = document.querySelector('#card13-keyUp')
     cupsQ_keyUp.innerText = responseCards.data[62].up_key
     const cupsQ_keyRev = document.querySelector('#card13-keyUp')
-    cupsQ_keyRev.innerText = responseCards.data[62].rev_keys
+    cupsQ_keyRev.innerText = responseCards.data[62].rev_key
     // const card13Explore = document.querySelector('#card13-explore')
 
     const cupsKi_img = document.querySelector('#card14-imgUp')
@@ -234,7 +234,7 @@ const getData = async () => {
     const cupsKi_keyUp = document.querySelector('#card14-keyUp')
     cupsKi_keyUp.innerText = responseCards.data[63].up_key
     const cupsKi_keyRev = document.querySelector('#card14-keyUp')
-    cupsKi_keyRev.innerText = responseCards.data[63].rev_keys
+    cupsKi_keyRev.innerText = responseCards.data[63].rev_key
     // const card14Explore = document.querySelector('#card14-explore')
 
     

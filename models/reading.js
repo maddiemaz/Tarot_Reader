@@ -9,6 +9,8 @@ const readingSchema = new mongoose.Schema(
         // Would you reference the cards like this??
         cardId: {type: mongoose.Schema.Types.ObjectId, ref: 'Card'},
         // Need another for meanings
+        card_images: {type: mongoose.Schema.Types.ObjectId, ref: 'Card'},
+        card_names: {type: mongoose.Schema.Types.ObjectId, ref: 'Card'},
         card_meanings: {type: mongoose.Schema.Types.ObjectId, ref: 'Card'},
         note: {type: String, required: false},
         userId: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},

@@ -33,4 +33,7 @@
     width: 100px;
     height: 100px;
     background-color: #f565aa;
+    font-size: 70px;
+    text-align: center;
+    box-shadow: 2px 2px 10px #2330a3;
 }

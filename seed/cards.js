@@ -28,7 +28,7 @@ const main = async() => {
         },
         {
             // [1]
-            name: 'I. The Magician',
+            name: '1. The Magician',
             number: '1',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -48,7 +48,7 @@ const main = async() => {
         },
         {
             // [2]
-            name: 'II. The High Priestess',
+            name: '2. The High Priestess',
             number: '2',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -56,33 +56,19 @@ const main = async() => {
             element_icon: '🜄',
             planet: 'Moon',
             planet_icon: '☾',
-            astro: [
-                'Cancer',
-                'Pisces',
-            ],
-            astro_icon: [
-                '♋︎',
-                '♓︎',
-            ],
+            astro: 'Cancer   Pisces',
+            astro_icon: '♋︎   ♓︎',
             meaning: 'The High Priestess holds the keys to hidden knowledge and deep insights. Her connection to spirituality and inner knowing guides you towards a deeper understanding of yourself and the world around you. She invites introspection, encouraging you to trust your instincts and delve into the depths of your subconscious to unlock the secrets that reside within.',
             up_img: 'https://images.squarespace-cdn.com/content/v1/6282048f3ddae806d695b4b8/ec01b997-14bf-4f0b-9dbd-45f01f4604b0/2-the-high-priestess.jpg?format=500w',
-            up_key: [
-                'intuition',
-                'serenity',
-                'divine feminine',
-            ],
+            up_key: 'intuition   serenity   divine feminine',
             up_gen: 'A mistress of the subconscious, the High Priestess asks you to listen to your inner voice. She combines serenity, inner knowing, and collective wisdom to guide you toward your intuition. Trust your gut and let it lead you to the right answers. Don’t force control. Instead, let situations unfold as they are meant to be. At this time, pay special attention to your dreams, as they may carry subliminal messages that can help you in your waking hours. Looking inward rather than outward, can provide you with the guidance that you seek. Your imagination is ripe with creativity and flow, free from logic and practicality. Embody the divine feminine that exists inside of you to connect back to the fertile life source in all of us. Trust that your expanding intuition is guiding you to where you need to go.',
             rev_img: 'https://images.squarespace-cdn.com/content/v1/6282048f3ddae806d695b4b8/87ddcbaf-daa7-418e-b26a-941ab966abc0/Highpriestess.jpg?format=300w',
-            rev_key: [
-                'secrets',
-                'disconnection',
-                'neglect',
-            ],
+            rev_key: 'secrets   disconnection   neglect',
             rev_gen: 'Imbalance in the masculine and feminine essence of your soul is causing you to second guess yourself and your decisions. This disconnect between you and your inner voice brings perpetual distractions, a constant buzz that is numbing your intuitive powers. Take time to be still with yourself so that you can get in tune with your innate wisdom. She is trying to talk to you but you are straight up ignoring her with excuses of “being too busy.” Looking towards external sources for your answers will only circle you back to where you started. The High Priestess Reversed is a sign to get in touch with your higher self. Make space to enjoy yourself by doing absolutely nothing! You deserve it. The intuition that you innately possess will give you all the answers that you need, but only if you allow it to.',
         },
         {
             // [3]
-            name: 'III. The Empress',
+            name: '3. The Empress',
             number: '3',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -102,7 +88,7 @@ const main = async() => {
         },
         {
             // [4]
-            name: 'IV. The Emperor',
+            name: '4. The Emperor',
             number: '4',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -122,7 +108,7 @@ const main = async() => {
         },
         {
             // [5]
-            name: 'V. The Hierophant',
+            name: '5. The Hierophant',
             number: '5',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -142,7 +128,7 @@ const main = async() => {
         },
         {
             // [6]
-            name: 'VI. The Lovers',
+            name: '6. The Lovers',
             number: '6',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -162,7 +148,7 @@ const main = async() => {
         },
         {
             // [7]
-            name: 'VII. The Chariot',
+            name: '7. The Chariot',
             number: '7',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -182,7 +168,7 @@ const main = async() => {
         },
         {
             // [8]
-            name: 'VIII. Strength',
+            name: '8. Strength',
             number: '8',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -202,7 +188,7 @@ const main = async() => {
         },
         {
             // [9]
-            name: 'IX. The Hermit',
+            name: '9. The Hermit',
             number: '9',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -222,7 +208,7 @@ const main = async() => {
         },
         {
             // [10]
-            name: 'X. The Wheel of Fortune',
+            name: '10. The Wheel of Fortune',
             number: '10',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -242,7 +228,7 @@ const main = async() => {
         },
         {
             // [11]
-            name: 'XI. Justice',
+            name: '11. Justice',
             number: '11',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -262,7 +248,7 @@ const main = async() => {
         },
         {
             // [12]
-            name: 'XII. The Hanged Man',
+            name: '12. The Hanged Man',
             number: '12',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -282,7 +268,7 @@ const main = async() => {
         },
         {
             // [13]
-            name: 'XIII. Death',
+            name: '13. Death',
             number: '13',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -302,7 +288,7 @@ const main = async() => {
         },
         {
             // [14]
-            name: 'XIV. Temperance',
+            name: '14. Temperance',
             number: '14',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -322,7 +308,7 @@ const main = async() => {
         },
         {
             // [15]
-            name: 'XV. The Devil',
+            name: '15. The Devil',
             number: '15',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -342,7 +328,7 @@ const main = async() => {
         },
         {
             // [16]
-            name: 'XVI. The Tower',
+            name: '16. The Tower',
             number: '16',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -362,7 +348,7 @@ const main = async() => {
         },
         {
             // [17]
-            name: 'XVII. The Star',
+            name: '17. The Star',
             number: '17',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -382,7 +368,7 @@ const main = async() => {
         },
         {
             // [18]
-            name: 'XVIII. The Moon',
+            name: '18. The Moon',
             number: '18',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -402,7 +388,7 @@ const main = async() => {
         },
         {
             // [19]
-            name: 'XIX. The Sun',
+            name: '19. The Sun',
             number: '19',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -422,7 +408,7 @@ const main = async() => {
         },
         {
             // [20]
-            name: 'XX. Judgement',
+            name: '20. Judgement',
             number: '20',
             suit: 'Major Arcana',
             suit_icon: '✶',
@@ -442,7 +428,7 @@ const main = async() => {
         },
         {
             // [21]
-            name: 'XXI. The World',
+            name: '21. The World',
             number: '21',
             suit: 'Major Arcana',
             suit_icon: '✶',

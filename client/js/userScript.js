@@ -5,15 +5,15 @@ const getData = async () => {
     console.log(responseUsers)
 
     const user_img = document.querySelector('#user-img')
-    user_img.src = responseUsers.data[0].img   
+    user_img.src = responseUsers.data[2].img   
     const user_name = document.querySelector('#user-name')
-    user_name.innerText = responseUsers.data[0].name
+    user_name.innerText = responseUsers.data[2].name
     const user_astro = document.querySelector('#astro')
-    user_astro.innerText = responseUsers.data[0].astro
+    user_astro.innerText = responseUsers.data[2].astro
     const user_astroIcon = document.querySelector('#astro-icon')
-    user_astroIcon.src = responseUsers.data[0].astro_icon
+    user_astroIcon.innerText = responseUsers.data[2].astro_icon
     const user_animal = document.querySelector('#user-spiritAnimal')
-    user_animal.innerText = responseUsers.data[0].spirit_animal
+    user_animal.innerText = responseUsers.data[2].spirit_animal
 
 }
 getData()

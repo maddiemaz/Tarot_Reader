@@ -1,23 +1,21 @@
 console.log('working')
 
-// const getData = async () => {
-//     const responseUsers = await axios.get(`http://localhost:3001/users`)
-//     console.log(responseUsers)
-//     const responseCards = await axios.get(`http://localhost:3001/cards`)
-//     console.log(responseCards)
+const getData = async () => {
+    const responseUsers = await axios.get(`http://localhost:3001/users`)
+    console.log(responseUsers)
+    const responseCards = await axios.get(`http://localhost:3001/cards`)
+    console.log(responseCards)
 
-//     const user_img = document.querySelector('#user-img')
-//     user_img.src = responseUsers.data[0].img
-//     // const user_name = document.querySelector('#greeting')
-//     // user_name.innerText = `merry meet, ${responseUsers.data[0].name}`
+    const greeting = document.querySelector('#greeting')
+    greeting.src = `merry meet, ${responseUsers.data[2].name}`
 
-//     const cotd_name = document.querySelector('#cotd-name')
-//     cotd_name.innerText = responseCards.data[0].name
-//     const cotd_img = document.querySelector('#cotd-img')
-//     cotd_img.src = responseCards.data[0].up_img
+    const cotd_name = document.querySelector('#cotd-name')
+    cotd_name.innerText = responseCards.data[8].name
+    const cotd_img = document.querySelector('#cotd-img')
+    cotd_img.src = responseCards.data[8].up_img
 
-// }
-// getData()
+}
+getData()
 
 const learnMore = document.querySelector('#cotd-button')
 learnMore.addEventListener('click', () => {

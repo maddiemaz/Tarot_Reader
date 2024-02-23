@@ -4,7 +4,7 @@ const getData = async () => {
     const responseUsers = await axios.get(`http://localhost:3001/users`)
     console.log(responseUsers)
     const user_img = document.querySelector('#user-img')
-    user_img.src = responseUsers.data[0].img    
+    user_img.src = responseUsers.data[2].img    
 
 }
 getData()

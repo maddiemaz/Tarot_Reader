@@ -12,7 +12,7 @@ const getAllMeanings = async (req, res) => {
 const getMeaningById = async(req,res) => {
     try {
         const{id} = req.params
-        const meaning = await meaning.findById(id)
+        const meaning = await Meaning.findById(id)
         if (meaning) {
             return res.json(meaning)
         }

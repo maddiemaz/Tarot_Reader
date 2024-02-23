@@ -43,6 +43,10 @@ app.get('/meanings/:id', meaningControl.getMeaningById)
 //   -> will need to add to Controller files, then add here
 
 
+// CRUD Routes - Cards
+app.post('/cards/', cardControl.createCard)
+app.put('/cards/:id', cardControl.updateCard)
+app.delete('/cards/:id', cardControl.deleteCard)
 // CRUD Routes - Users
 app.post('/users/', userControl.createUser)
 app.put('/users/:id', userControl.updateUser)

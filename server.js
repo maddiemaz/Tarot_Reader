@@ -59,3 +59,6 @@ app.delete('/readings/:id', readingControl.deleteReading)
 app.post('/meanings/', meaningControl.createMeaning)
 app.put('/meanings/:id', meaningControl.updateMeaning)
 app.delete('/meanings/:id', meaningControl.deleteMeaning)
+
+// Delete All Cards
+app.delete('/cards', cardControl.deleteAllCards)

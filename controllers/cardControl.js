@@ -1,3 +1,4 @@
+const card = require('../models/card')
 const Card = require('../models/card')
 
 const getAllCards = async (req, res) => {
@@ -59,10 +60,20 @@ const deleteCard = async(req, res) => {
         return res.status(500).send(e.message)
     }
 }
+
+const deleteAllCards = async(req, res) => {
+    const deleted = await card.deleteMany()
+    if(deleted) {
+        return res.status(200).send("Cards deleted")
+    }
+}
+
+
 module.exports = {
     getAllCards,
     getCardById,
     updateCard,
     createCard,
-    deleteCard
+    deleteCard,
+    deleteAllCards
 }

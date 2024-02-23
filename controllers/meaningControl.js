@@ -60,10 +60,18 @@ const deleteMeaning = async(req, res) => {
     }
 }
 
+const deleteAllMeanings = async(req, res) => {
+    const deleted = await meaning.deleteMany()
+    if(deleted) {
+        return res.status(200).send("Meanings deleted")
+    }
+}
+
 module.exports = {
     getAllMeanings,
     getMeaningById,
     createMeaning,
     updateMeaning,
-    deleteMeaning
+    deleteMeaning,
+    deleteAllMeanings
 }

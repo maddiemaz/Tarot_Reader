@@ -60,5 +60,6 @@ app.post('/meanings/', meaningControl.createMeaning)
 app.put('/meanings/:id', meaningControl.updateMeaning)
 app.delete('/meanings/:id', meaningControl.deleteMeaning)
 
-// Delete All Cards
+// Delete All - to Re-Seed
 app.delete('/cards', cardControl.deleteAllCards)
+app.delete('/meanings', meaningControl.deleteAllMeanings)

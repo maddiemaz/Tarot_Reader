@@ -100,7 +100,7 @@
     text-align: left;
 }
 #key-line {
-    background-color: #08115c;;
+    background-color: #08115c;
     height: 60px;
     width: 1px;
     margin-top: 10px;
@@ -169,3 +169,55 @@
 /* #buffer {
     height: 10rem;
 } */
+
+#content-addMeanings {
+
+}
+.addMeaning {
+    background-color: #304be4;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 4px 4px 7px 3px #2330a3;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.mTitle {
+    font-size: 26px;
+    margin-bottom: 5px;
+
+    text-align: center;
+    font-family: "Astloch", system-ui;
+    font-weight: 700;
+}
+.reader {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2330a3;
+    font-weight: bold;
+
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.title {
+    font-size: 22px;
+    margin-bottom: 10px;
+
+    text-align: center;
+    font-family: "Astloch", system-ui;
+    font-weight: 400;
+
+}
+.mContent {
+    font-size: 18px;  
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin-bottom: 20px;
+}
+#daily-Decision-content {
+    text-align: center;
+}

@@ -45,10 +45,10 @@
     font-size: 50px;
 }
 #logo {
-    background-color: white;
-    border-radius: 50%;
+    /* background-color: white;
+    border-radius: 50%; */
     width: 60px;
-    height: 60px;
+    height: 70px;
 }
 #user-img {
     margin-right: 20px;
@@ -150,9 +150,10 @@
     top: 10.5rem;
 }
 #backButton {
-    background-color: white;
+    /* background-color: white;
     width: 30px;
-    height: 40px;
+    height: 40px; */
+    font-size: 30px;
 
     margin-left: 20px;
 }
@@ -169,7 +170,6 @@
 }
 /* Style The Dropdown Button */
 #dropdown-icon {
-    background-color: #c44ca6;
     color: white;
     font-size: 30px;
     border: none;

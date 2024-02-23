@@ -49,11 +49,11 @@
     top: 13.25rem;
 }
 #backButton {
-    height: 25px;
+    font-size: 26px;
 }
 /* Style The Dropdown Button */
 #dropdown-icon {
-    height: 30px;
+    font-size: 26px;
 } 
 
 #content-single {

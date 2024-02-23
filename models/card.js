@@ -13,7 +13,7 @@ const cardSchema = new mongoose.Schema(
         astro: {type: String, required: false},
         astro_icon: {type: String, required: false},
         // symbolism: {type: String, required: false},
-        // meaning: {type: String, required: false},
+        meaning: {type: String, required: false},
         up_img: {type: String, required: true},
         up_key: {type: String, required: true},
         up_gen: {type: String, required: true},

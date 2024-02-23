@@ -9,12 +9,12 @@ const getData = async () => {
     const responseCards = await axios.get(`http://localhost:3001/cards`)
     console.log(responseCards)
 
-    const pentacles_Suit = document.querySelector('#suitName')
-    pentacles_Suit.innerText = responseCards.data[64].suit
+    // const pentacles_Suit = document.querySelector('#suitName')
+    // pentacles_Suit.innerText = responseCards.data[64].suit
 
     const pentaclesA_img = document.querySelector('#card1-imgUp')
     pentaclesA_img.src = responseCards.data[64].up_img
-    const pentaclesA_Name = document.querySelector('#card1-Name')
+    const pentaclesA_Name = document.querySelector('#card1-name')
     pentaclesA_Name.innerText = responseCards.data[64].name
     const pentaclesA_elementIcon = document.querySelector('#card1-imgUp')
     pentaclesA_elementIcon.innerText = responseCards.data[64].element_icon

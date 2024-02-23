@@ -24,7 +24,9 @@
 #keywords-many {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
 }
 .explore {
     font-size: 18px;
@@ -83,6 +85,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
 }
 #key-line {
     width: 150px;
@@ -90,10 +93,11 @@
     background-color: white;
     margin-top: 2px;
     margin-bottom: 2px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 #card1-keyRev, #card2-keyRev, #card3-keyRev, #card4-keyRev, #card5-keyRev, #card6-keyRev, #card7-keyRev, #card8-keyRev, #card9-keyRev, #card10-keyRev, #card11-keyRev, #card12-keyRev, #card13-keyRev, #card14-keyRev {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
 }

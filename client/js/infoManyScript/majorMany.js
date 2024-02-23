@@ -1,10 +1,10 @@
 console.log('working')
 
 const getData = async () => {
-    // const responseUsers = await axios.get(`http://localhost:3001/users`)
-    // console.log(responseUsers)
-    // const user_img = document.querySelector('#user-img')
-    // user_img.src = responseUsers.data[0].img   
+    const responseUsers = await axios.get(`http://localhost:3001/users`)
+    console.log(responseUsers)
+    const user_img = document.querySelector('#user-img')
+    user_img.src = responseUsers.data[2].img   
 
     const responseCards = await axios.get(`http://localhost:3001/cards`)
     console.log(responseCards)
@@ -368,22 +368,6 @@ const getData = async () => {
     major21_keyRev.innerText = responseCards.data[21].rev_key
     // const card21Explore = document.querySelector('#card21-explore')
 
-    const major22_img = document.querySelector('#card22-imgUp')
-    major22_img.src = responseCards.data[22].up_img
-    const major22_Name = document.querySelector('#card22-name')
-    major22_Name.innerText = responseCards.data[22].name
-    const major22_elementIcon = document.querySelector('#card22-elementIcon')
-    major22_elementIcon.innerText = responseCards.data[22].element_icon
-    const major22_planetIcon = document.querySelector('#card22-planetIcon')
-    major22_planetIcon.innerText = responseCards.data[22].planet_icon
-    const major22_astroIcon = document.querySelector('#card22-astroIcon')
-    major22_astroIcon.innerText = responseCards.data[22].astro_icon
-    const major22_keyUp = document.querySelector('#card22-keyUp')
-    major22_keyUp.innerText = responseCards.data[22].up_key
-    const major22_keyRev = document.querySelector('#card22-keyRev')
-    major22_keyRev.innerText = responseCards.data[22].rev_key
-    // const card22Explore = document.querySelector('#card22-explore')
-    
 }
 getData()
 

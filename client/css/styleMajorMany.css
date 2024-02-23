@@ -13,11 +13,14 @@
 #icons-many {
     display: flex;
     flex-direction: row;
+    margin-bottom: 5px;
 }
 #keywords-many {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
 }
 .explore {
     font-size: 18px;
@@ -61,6 +64,7 @@
     background-color: #30b4e4;
 
     margin-right: 10px;
+    font-size: 30px;
 }
 #card0-planetIcon, #card1-planetIcon, #card2-planetIcon, #card3-planetIcon, #card4-planetIcon, #card5-planetIcon, #card6-planetIcon, #card7-planetIcon, #card8-planetIcon, #card9-planetIcon, #card10-planetIcon, #card11-planetIcon, #card12-planetIcon, #card13-planetIcon, #card14-planetIcon, #card15-planetIcon, #card16-planetIcon, #card17-planetIcon, #card18-planetIcon, #card19-planetIcon, #card20-planetIcon, #card21-planetIcon {
     width: 30px;
@@ -80,6 +84,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
 }
 #key-line {
     width: 150px;
@@ -87,10 +92,11 @@
     background-color: white;
     margin-top: 2px;
     margin-bottom: 2px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 #card0-keyRev, #card1-keyRev, #card2-keyRev, #card3-keyRev, #card4-keyRev, #card5-keyRev, #card6-keyRev, #card7-keyRev, #card8-keyRev, #card9-keyRev, #card10-keyRev, #card11-keyRev, #card12-keyRev, #card13-keyRev, #card14-keyRev, #card15-keyRev, #card16-keyRev, #card17-keyRev, #card18-keyRev, #card19-keyRev, #card20-keyRev, #card21-keyRev {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
 }

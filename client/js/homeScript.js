@@ -6,13 +6,15 @@ const getData = async () => {
     const responseCards = await axios.get(`http://localhost:3001/cards`)
     console.log(responseCards)
 
+    const user_img = document.querySelector('#user-img')
+    user_img.src = responseUsers.data[2].img  
     const greeting = document.querySelector('#greeting')
-    greeting.src = `merry meet, ${responseUsers.data[2].name}`
+    greeting.innerText = `merry meet, ${responseUsers.data[2].name}`
 
     const cotd_name = document.querySelector('#cotd-name')
     cotd_name.innerText = responseCards.data[8].name
-    const cotd_img = document.querySelector('#cotd-img')
-    cotd_img.src = responseCards.data[8].up_img
+    // const cotd_img = document.querySelector('#cotd-img')
+    // cotd_img.src = responseCards.data[8].up_img
 
 }
 getData()

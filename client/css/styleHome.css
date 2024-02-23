@@ -20,7 +20,9 @@
     align-items: center;
     flex-wrap: wrap;
 
-    font-size: 36px;
+    font-family: "Astloch", system-ui;
+    font-weight: 400;
+    font-size: 32px;
 }
 
 #cardOfTheDay {
@@ -32,17 +34,22 @@
     margin-top: 30px;
 }
 #cotd-img {
-    width: 175px;
-    height: 250px;
+    width: 160px;
+    height: 280px;
     background-color: #a24cc4;
+    box-shadow: 
+        4px 4px 10px #2330a3,
+        -2px -2px 10px #2330a3;
+    ;
 }
 #cotd-title {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 #cotd-name {
     font-family: "Astloch", system-ui;
     font-weight: 700;
     font-size: 32px;
+    margin-top: 5px;
 }
 #cotd-button {
     font-size: 18px;
